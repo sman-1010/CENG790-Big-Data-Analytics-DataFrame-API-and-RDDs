@@ -6,3 +6,5 @@ lazy val root = (project in file("."))
   .settings(
     name := "CENG790-Big Data Analytics-DataFrame API and RDDs"
   )
+
+libraryDependencies += "org.apache.spark" %% "spark-core" % "3.1.2"
